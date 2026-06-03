@@ -20,5 +20,4 @@ git clone https://github.com/rtx4d/proprietary_vendor_zte_akershus -b lineage-22
 git clone https://github.com/rtx4d/android_kernel_zte_sdm845 -b lineage-22.2 kernel/zte/sdm845
 
 . build/envsetup.sh
-lunch crdroid_akershus-ap4a-user
-mka bacon
+brunch akershus
